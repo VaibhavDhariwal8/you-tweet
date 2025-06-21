@@ -1,0 +1,20 @@
+{
+  "name": "you-tweet",
+  "version": "1.0.0",
+  "description": "a project on the learning curve of backend using javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "javascript",
+    "youtube",
+    "twitter"
+  ],
+  "author": "Vaibhav Dhariwal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
