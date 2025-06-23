@@ -15,4 +15,11 @@ app.use(express.static('public')); // Serve static files from the 'public' direc
 app.use(cookieParser());
 
 
+// Import routes
+import userRoutes from './routes/user.routes.js';
+
+// Use routes
+app.use('/api/v1/users', userRoutes);
+
+
 export {app};
